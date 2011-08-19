@@ -24,13 +24,13 @@ If you have a list of items you would like to be displayed, you can loop through
 
 Like so:
 
-<table>
-  [@users]
-  <tr>
-   <td>[@firstname]</td><td>[@lastname]</td> 
-  </tr>
-  [/@users]
-</table>
+    <table>
+      [@users]
+      <tr>
+       <td>[@firstname]</td><td>[@lastname]</td> 
+      </tr>
+      [/@users]
+    </table>
 
 The above code will loop through all of the users (provided by the data file) and replace them with their respective values. This is recursive, so you can nest to your heart's content.
 
@@ -55,4 +55,4 @@ And for lists of values:
       )
     );
 
-You can nest the arrays as much as you like.`
+You can nest the arrays as much as you like.
