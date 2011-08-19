@@ -6,9 +6,10 @@ This is a simple templating class derived from a [brocolos.net blogpost by Nuno 
 To see the example in action, download the files to a server and view test.php.
 
 Usage
-=====
+-----
 
 You'll need three files to use the class:
+
 * data file (test.php)
 * template file (test.tpl)
 * template class file (template.class.php)
