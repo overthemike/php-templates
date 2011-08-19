@@ -16,11 +16,11 @@ You'll need three files to use the class:
 Creating your template
 ----------------------
 
-As far as special markup goes, there's only one thing to learn: [@mytag] and optionally [/@mytag].
+As far as special markup goes, there's only one thing to learn: `[@mytag]` and optionally `[/@mytag]`.
 
-If you're only replacing one value in the template, you only need to use [@mytag].
+If you're only replacing one value in the template, you only need to use `[@mytag]`.
 
-If you have a list of items you would like to be displayed, you can loop through them by wrapping them in [@mytag]content[/@mytag].
+If you have a list of items you would like to be displayed, you can loop through them by wrapping them in `[@mytag] content [/@mytag]`.
 
 Like so:
 
