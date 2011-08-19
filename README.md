@@ -37,9 +37,10 @@ The above code will loop through all of the users (provided by the data file) an
 Creating your datafile
 ----------------------
 
-1. Include the template class. (include("template.class.php");)
-2. Create a new object from that class that points to your template file. ($myPage = new Template("myTemplateFile.tpl");)
-3. Set the values. ($myPage->set("firstname", "John");
+1. Include the template class. (`include("template.class.php");`)
+2. Create a new object from that class that points to your template file. (`$myPage = new Template("myTemplateFile.tpl");`)
+3. Set the values. 
+`$myPage->set("firstname", "John");
   $myPage->set("lastname", "Doe");
 
   And for lists of values:
@@ -54,5 +55,5 @@ Creating your datafile
     )
   );
 
-  You can nest the arrays as much as you like.)
-4. Display. ($myPage->output();)
+  You can nest the arrays as much as you like.`
+4. Display. (`$myPage->output();`)
