@@ -39,21 +39,20 @@ Creating your datafile
 
 1. Include the template class. (`include("template.class.php");`)
 2. Create a new object from that class that points to your template file. (`$myPage = new Template("myTemplateFile.tpl");`)
-3. Set the values. 
-`$myPage->set("firstname", "John");
-  $myPage->set("lastname", "Doe");
-
-  And for lists of values:
-  $myPage->set("values", array(
-    array(
-      "firstname"=>"John",
-      "lastname"=>"Doe"
-    ),
-    array(
-      "firstname"=>"Jane",
-      "lastname"=>"Doe"
-    )
-  );
-
-  You can nest the arrays as much as you like.`
+3. Set the values.(`$myPage->set("firstname", "John");`)
 4. Display. (`$myPage->output();`)
+
+And for lists of values:
+
+    $myPage->set("values", array(
+      array(
+        "firstname"=>"John",
+        "lastname"=>"Doe"
+      ),
+      array(
+        "firstname"=>"Jane",
+        "lastname"=>"Doe"
+      )
+    );
+
+You can nest the arrays as much as you like.`
