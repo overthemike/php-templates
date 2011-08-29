@@ -53,6 +53,7 @@
             $tempBlock = $this->getOutput($tempBlock, $subKey, $subValue);
           } else {
             $tempBlock = substr_replace($tempBlock, $subValue, strpos($tempBlock, "[@$subKey]"), strlen("[@$subKey]"));
+            $tempBlock = str_replace("[/@$subKey]", '', $tempBlock);
           }
         }
         $newBlocks .= $tempBlock;
